@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*body*/
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/*section*/
+
+section {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/*nav*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+}
+
+nav a:hover {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+.view {
+  display: none;
+}
+
+.recipes {
+  margin-right: 5%;
+}
+
+/*anchor tag*/
+
+a {
+  display: inline-block;
+  color: #000;
+  padding: 12px 16px;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*food-1 Paragraph */
+.food-1 {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffec99;
+  border-radius: 10px;
+}
+.recipes {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 100px;
+  position: relative;
+}
+.left-arrow {
+  margin-top: 200px;
+  
+}
+.right-arrow {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+
+  
+}
+
+
+
+.img2 {
+  margin: 20px;
+  padding: 10px;
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.food-1 img {
+  width: 400px;
+  height: auto;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+h1 {
+  margin-left: 20px;
+}
+.food-1 h1 {
+  font-weight: bold;
+  margin-bottom: 23px;
+  margin-top: 20px;
+}
+.food-1 p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.arrowdown-icon {
+  width: 20px;
+  height: 24px;
+}
+.food-1 .btn-1 {
+  padding: 12px 20px;
+  background-color: #fab005;
+  color: #000;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.btn-2 {
+  padding: 12px 20px;
+  background-color: #ffec99;
+  color: #000;
+  border-radius: 5px;
+}
+.btn-1:hover {
+  background-color: #ffe066;
+}
+.btn-2:hover {
+  background-color: #ced4da;
+  color: #000;
+}
+
+/*foods Paragraph 2*/
+.foods {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.recipedetails {
+  line-height: 1.5;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px #e6f0ff;
+}
+.recipedetails a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 25px;
+  margin: 10px 10px 10px;
+}
+.recipedetails h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.recipediet ul {
+  padding-right: 40px;
+}
+
+.recipediet li {
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.vegan {
+  background-color: #82c91e;
+}
+.palleo {
+  background-color: #fcc419;
+}
+
+.recipedetails ul {
+  margin-left: 20px;
+  list-style: 1.8;
+  margin-bottom: 20px;
+}
+.star-icon {
+  width: 20px;
+  height: auto;
+  stroke: #ff922b;
+}
+.fire-icon {
+  width: 20px;
+  height: auto;
+  stroke: #ff922b;
+}
+.check-icon {
+  width: 20px;
+  height: auto;
+  stroke: #ff922b;
+}
+
+/*Testimonials*/
+
+.testimonial {
+  margin-top: 100px;
+  background-color: #ffec99;
+  padding: 20px;
+  border-radius: 10px;
+}
+.testimonial p {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.testimonial h2 {
+  font-size: 40px;
+}
+.testimonial-details {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+.testimonial-details img {
+  width: 100px;
+  height: auto;
+  border-radius: 50px;
+  margin-left: 25%;
+  margin-bottom: 10px;
+}
+.testimonial-details p {
+  line-height: 1.5;
+  text-align: center;
+}
+
+/*list Images*/
+
+.listimages {
+  margin-top: 100px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  justify-content: space-around;
+}
+.listimages i {
+  height: auto;
+  background-color: #fff3bf;
+  border-radius: 25px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.listimages p {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/*Footer*/
+
+footer {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+footer p {
+  font-size: 20px;
+  text-align: center;
+}
